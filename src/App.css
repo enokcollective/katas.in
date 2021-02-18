@@ -1,0 +1,57 @@
+* {
+  font-family: 'Newsreader', serif;
+}
+
+body {
+  background-color: #f4f1e6;
+}
+
+.app {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header h1 {
+  color: #6b1011;
+  display: flex;
+  align-items: center;
+}
+
+.header h1 .badge {
+  background-color: #6b1011;
+  border-radius: 5px;
+  padding: 0.25rem;
+  font-size: 1rem;
+  color: #ffffff;
+  margin-left: 0.5rem;
+}
+
+.subtitle {
+  font-size: 1.25rem;
+}
+
+ul.languages {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-top: 1rem;
+}
+
+ul.languages li {
+  padding: 0.4rem 0;
+  font-size: 1.25rem;
+}
+
+.button {
+  background-color: #6b1011;
+  border-radius: 5px;
+  padding: 0.5rem;
+  font-size: 1.25rem;
+  color: #ffffff;
+  margin-top: 1rem;
+  text-decoration: none;
+}
